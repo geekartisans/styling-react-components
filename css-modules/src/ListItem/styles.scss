@@ -1,0 +1,24 @@
+.ListItem, .ListHead {
+	display: flex;
+
+  .Ceil {
+    display: flex;
+    flex-basis: 40%;
+    box-sizing: border-box;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+  
+    &:first-child {
+      flex-basis: 5%
+    }
+  
+    &:last-child {
+      flex-basis: 15%
+    }
+  }
+}
+
+.ListHead {
+	font-weight: 700;
+	padding: 5px 0;
+}
